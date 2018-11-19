@@ -23,13 +23,12 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a
-		class="navbar-brand" href="#" id="navbarDropdown"
-				role="button" data-toggle="dropdown" aria-haspopup="true"
-				aria-expanded="false">Atendimento</a>
+		class="navbar-brand" href="#" id="navbarDropdown" role="button"
+		data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Atendimento</a>
 	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		<a class="dropdown-item" href="#">Cadastrar</a> <a class="dropdown-item"
-			href="#">Consultar</a>
-		<a class="dropdown-item" href="#">Distribuir</a>
+		<a class="dropdown-item" href="#">Cadastrar</a> <a
+			class="dropdown-item" href="#">Consultar</a> <a class="dropdown-item"
+			href="#">Distribuir</a>
 	</div>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarNav" aria-controls="navbarNav"
@@ -45,10 +44,12 @@
 			</li>
 			<li class="nav-item"><a class="nav-link" href="#">Relatório</a>
 			</li>
-		<a
-		class="navbar-brand" href="#" id="navbarDropdown"
-				role="button" data-toggle="dropdown" aria-haspopup="true"
-				aria-expanded="false">Usuário xx</a>
+			<a class="navbar-brand" href="#" id="navbarDropdown" role="button"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Usuário
+				xx</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="#">Sair</a>
+			</div>
 		</ul>
 	</div>
 </body>
