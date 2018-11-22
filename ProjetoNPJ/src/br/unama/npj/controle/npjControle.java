@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 
+import br.unama.npj.Dao.PessoaDAO;
 import br.unama.npj.Model.Endereco;
 import br.unama.npj.Model.Pessoa;
 
@@ -41,8 +42,7 @@ public class npjControle extends HttpServlet {
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		PrintWriter out = response.getWriter();
-		String action = (String)request.getParameter("action");
+		String action = request.getParameter("action");
 		if(action.equals("cadastroPessoa")) {
 			
 			String nome = (String)request.getParameter("nome");
@@ -60,8 +60,14 @@ public class npjControle extends HttpServlet {
 			String municipio = (String)request.getParameter("municipio");
 			String numero = (String)request.getParameter("numero");
 			
-			
 			Endereco e = new Endereco(cep, logradouro,  numero, complemento, bairro, estado,  municipio, p);
+			
+			PessoaDAO pDAO = new PessoaDAO(ds);
+			
+			pDAO.cadastroPessoa(p, e);
+			
+			
+		}if(action.equals("cadastroAtendimento")) {
 			
 		}
 		

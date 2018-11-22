@@ -3,7 +3,7 @@
   <Resource name="jdbc/web-npj" 
   auth="Container" type="javax.sql.DataSource"
                maxActive="20" maxIdle="5" maxWait="10000"
-               username="root" password="mysql" 
+               username="unama_projeto_npj" password="f6BaW0CpMxGF" 
                driverClassName="com.mysql.cj.jdbc.Driver"
-               url="jdbc:mysql://localhost:3306/alunos?serverTimezone=UTC"/>
+               url="jdbc:mysql://104.196.110.124:3306/unama_projeto_npj?serverTimezone=UTC"/>
 </Context>
