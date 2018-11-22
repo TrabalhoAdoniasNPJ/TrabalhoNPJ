@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+
+body{
+	font-family: arial;
+}
+#Bv{
+	text-align: center;
+	background-color: #00000;
+}
+#Bv2{
+	margin:20px;
+	display: inline-block;
+}
+h1{
+	color:#000000;
+}
+h3{
+	color:#959999;
+}
+
+div{
+	margin-bottom: 10px;
+	margin-top:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:25px;
+	background-color: #c0c0c0;
+}
+
+#dr{
+	background-color: #00000;
+	text-align: center;
+	
+}
+span{
+	font-weight: bold;
+}
