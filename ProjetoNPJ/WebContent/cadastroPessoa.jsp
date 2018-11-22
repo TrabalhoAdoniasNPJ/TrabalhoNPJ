@@ -23,6 +23,9 @@ CEP: <input type="text" name="cep" id="cep">
 Logradouro: <input type="text" name="logradouro" id="logra">
 <br>
 <br>
+Complemento: <input type="text" name="complemento" id="complemento">
+<br>
+<br>
 Numero: <input type="text" name="numero" id="numero"> Bairro: <input type="text" name="bairro" id="bairro">
 <br>
 <br>
