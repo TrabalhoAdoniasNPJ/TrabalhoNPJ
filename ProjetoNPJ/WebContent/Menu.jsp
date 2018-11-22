@@ -19,7 +19,7 @@
 	integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
 	crossorigin="anonymous"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Menu</title>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a
