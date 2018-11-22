@@ -29,7 +29,7 @@ Complemento: <input type="text" name="complemento" id="complemento">
 Numero: <input type="text" name="numero" id="numero"> Bairro: <input type="text" name="bairro" id="bairro">
 <br>
 <br>
-UF: <input type="text" name="uf" id="uf"> Municipio: <input type="text" name="municipio" id="municipio">
+UF: <input type="text" name="estado" id="estado"> Municipio: <input type="text" name="municipio" id="municipio">
 <br>
 <br>
 E-mail: <input type="email" name="email" id="email"> Telefone: <input type="text" name="telefone" id="telefone">
