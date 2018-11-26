@@ -71,8 +71,12 @@ public class npjControle extends HttpServlet {
 			
 		}
 		
-		
-		
+		if(action.equals("consultarPessoa")){
+			
+			response.setContentType("text/plain"); 	
+			response.getWriter().write("eric");
+
 	}
 
+	}
 }
