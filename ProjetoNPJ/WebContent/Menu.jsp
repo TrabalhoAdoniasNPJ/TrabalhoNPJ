@@ -40,9 +40,9 @@
 			<li class="nav-item active"><a class="nav-link" href="#">Pessoa
 					<span class="sr-only">(current)</span>
 			</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Consultas</a>
+			<li class="nav-item active"><a class="nav-link" href="#">Consultas</a>
 			</li>
-			<li class="nav-item"><a class="nav-link" href="#">Relatório</a>
+			<li class="nav-item active"><a class="nav-link" href="#">Relatório</a>
 			</li>
 			<a class="navbar-brand" href="#" id="navbarDropdown" role="button"
 				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Usuário

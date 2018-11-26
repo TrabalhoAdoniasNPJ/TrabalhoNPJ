@@ -22,18 +22,19 @@
 <title>Cadastro aluno</title>
 </head>
 <body>
-<form>
+<form action="npjControle" method="post">
+<input type="hidden" name="action" value="CadastroAluno">
   <div class="form-group">
     <label for="exampleInputNome">Nome</label>
-    <input type="text" class="form-control" id="Nome" aria-describedby="Nome" placeholder="Nome">
+    <input name="Nome" type="text" class="form-control" id="Nome" aria-describedby="Nome" placeholder="Nome">
   </div>
   <div class="form-group">
     <label for="exampleInputMatricula">Matricula</label>
-    <input type="text" class="form-control" id="exampleInputMatricula" placeholder="Matricula">
+    <input name="Matricula" type="text" class="form-control" id="exampleInputMatricula" placeholder="Matricula">
   </div>
   <div class="form-group">
-  <label for="exampleCPF">CPF</label>
-    <input type="text" class="form-cantrol" id="exampleCPF" placeholder="CPF">
+    <label for="exampleInputCPF">CPF</label>
+    <input name="CPF" type="text" class="form-control" id="exampleInputCPF" placeholder="CPF">
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
   </form>
